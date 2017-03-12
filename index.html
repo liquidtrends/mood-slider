@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<div class="container text-center">
+<div class="well description">
+  <h1>On a scale of 1 (being extraordinarily calm) to 5 (super angry or frustrated), how do you feel right now?</h1>
+</div>
+  <h2><label for="mood">My current mood is:</label>
+    <input type="text" id="mood" readonly class="mood-text">
+  </h2>
+<div id="slider"></div>
+  <div class="row mood-labels">
+    <div class="col-md-2 col-md-offset-1 text-left"><p>Extraordinarily Calm</p></div>
+    <div class="col-md-2 text-left"><p>Very Calm</p></div>
+    <div class="col-md-2 text-center"><p>Average</p></div>
+    <div class="col-md-2 text-right"><p>Very Frusterated</p></div>
+    <div class="col-md-2 text-right"><p>Extraordinarily Frusterated</p></div>
+  </div>
+<img src="http://res.cloudinary.com/dv2ytxq4z/image/upload/v1489289355/average_t4kd0z.png" alt="Isa lab" id="mood-icon" />
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</body>
+</html>
